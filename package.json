@@ -1,16 +1,21 @@
 {
   "name": "02",
   "private": true,
+  "homepage": "https://ulisesmc29.github.io",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
