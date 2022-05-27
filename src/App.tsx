@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/pageqr' element={<Pageqr />}>
+          <Route path='/02-QR-code/' element={<Pageqr />}>
           </Route>
         </Routes>
       </Router>
