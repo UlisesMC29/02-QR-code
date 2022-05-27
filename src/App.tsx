@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<Pageqr />}>
+          <Route path='/pageqr' element={<Pageqr />}>
           </Route>
         </Routes>
       </Router>
